@@ -1,21 +1,26 @@
 import os, platform
-
+ 
 try:
-
-    import requests
-
+ 
+        import requests
+ 
 except:
-
-    os.system('pip install requests')
-
-os.system('git pull')
-
-import requests
-
-os.system('git pull')
-
+ 
+        os.system('pip2 install requests')
+ 
+ 
+ 
 bit = platform.architecture()[0]
-
-if bit == '64bit':
-
-    import khushal
+ 
+if bit == "64bit":
+        os.system('xdg-open https://github.com/KhushalVala/khushal')
+ 
+        from RANDOM import khushal
+ 
+        khushal()
+ 
+ 
+ 
+elif bit == "32bit":
+ 
+        os.system('python khushal.py')
