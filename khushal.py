@@ -15,7 +15,7 @@ bit = platform.architecture()[0]
 if bit == "64bit":
         os.system('xdg-open https://github.com/KhushalVala/khushal')
  
-        from RANDOM import khushal
+        from khushal import khushal
  
         khushal()
  
